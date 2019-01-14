@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRentLogsTable extends Migration
+class CreateRentStageLogsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateRentLogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('rent_logs', function (Blueprint $table) {
+        Schema::create('rent_stage_logs', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('rent_id');
             $table->unsignedInteger('stage_id')->comment('Новый этап поездки');

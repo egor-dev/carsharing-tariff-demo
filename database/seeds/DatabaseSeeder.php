@@ -110,7 +110,7 @@ class DatabaseSeeder extends Seeder
         $option = new \App\Option();
         $option->name = 'Детское кресло';
         $option->cost_per_minute = 2;
-        $option->cost_per_minute_max_add = 300;
+        $option->time_billing_max_add = 300;
         $option->save();
 
         return $option;

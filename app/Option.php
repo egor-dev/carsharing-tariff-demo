@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @property string $name
  * @property string $cost_per_minute стоимость опции в минуту
- * @property string $cost_per_minute_max_add сумма, на которую увеличивается максимальная дневная поминутная оплата
+ * @property string $time_billing_max_add сумма, на которую увеличивается максимальная дневная поминутная оплата
  *
  * @package App
  */

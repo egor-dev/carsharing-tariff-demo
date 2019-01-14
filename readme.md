@@ -29,7 +29,7 @@ docker-compose exec workspace bash
 ```
 
 ```
-php artisan migrate && php artisan db:seed  
+php artisan migrate:fresh && php artisan db:seed  
 ```
 
 Сделать запрос
