@@ -3,6 +3,11 @@
 composer install
 ```
 
+
+```
+cp .env.example .env
+```
+
 ```
 git submodule init && git submodule update 
 ```
@@ -12,7 +17,7 @@ cp .laradock.env.example laradock/.env
 ```
 
 ```
-cd docker 
+cd laradock 
 ```
 
 ```
