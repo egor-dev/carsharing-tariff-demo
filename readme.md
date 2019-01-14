@@ -32,5 +32,4 @@ docker-compose exec workspace bash
 php artisan migrate:fresh && php artisan db:seed  
 ```
 
-Сделать запрос
-GET http://127.0.0.1:8080/api/tariffs/1
+Сделать запрос для получения информации о тарифе `GET http://127.0.0.1:8080/api/tariffs/1`
